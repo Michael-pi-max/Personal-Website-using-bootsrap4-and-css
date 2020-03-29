@@ -2,7 +2,13 @@
     margin: 0;
     padding: 0;
 }
-
+/* Google font */
+@font-face {
+    font-family: 'bebas-neue';
+    src: url("../font/BebasNeue-Regular.ttf");
+    font-style: normal;
+    font-weight: 100;
+}
 /* navigation */
 
 .brand-text {
