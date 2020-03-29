@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* navigation */
+
+.brand-text {
+    font-size: 50px;
+    font-family: 'bebas-neue', 'gobold';
+    padding: 5px 24px;
+    margin-bottom: 0;
+}
+
+.tag-text {
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    padding: 5px 24px;
+    position: relative;
+    bottom: 20px;
+}
+
+a {
+    color: white;
+}
+
+ul.position li {
+    font: 24px 'bebas-neue', 'gobold';
+}
+
+
+div ul.links li {
+    padding: 0px;}
+
+.navbar-brand {
+    margin-bottom: 0;
+}
+
+.index1 li a:hover{
+    transform: scale(1.5);
+}
+
+
+
+
+
