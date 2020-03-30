@@ -102,6 +102,12 @@ div ul.links li {
 
 }
 
+
+/* gallery */
+.gcontent{
+    margin-top: 160px;
+}
+
 /* media query */
 @media only screen and (max-width: 760px) {
 
