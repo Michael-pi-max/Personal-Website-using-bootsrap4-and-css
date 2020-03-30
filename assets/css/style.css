@@ -108,6 +108,11 @@ div ul.links li {
     margin-top: 160px;
 }
 
+/* whyme */
+.wcontent{
+    margin-top: 160px;
+}
+
 /* media query */
 @media only screen and (max-width: 760px) {
 
