@@ -113,6 +113,58 @@ div ul.links li {
     margin-top: 160px;
 }
 
+/* contact */
+.cContent{
+    margin-top: 160px;
+}
+
+form{
+    margin-top: 80px;
+}
+
+.myComment{
+    margin-top: 20px;
+}
+
+h1{
+    font-family: 'bebas-neue';
+    font-size: 50px;
+}
+
+.myComment div p{
+    font-family: sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
+    letter-spacing: .01em;
+    line-height: 2em;
+    text-transform: none;
+    color: #222;
+}
+
+input{
+    background-color: #fafafa;
+    border-radius: 0;
+}
+
+.myBtn{
+    border: 1px solid black;
+    border-radius: 0;
+    text-transform: uppercase;
+    padding: 10px 25px;
+    width: 120px;
+}
+
+.myBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.message{
+    border: 0.5px lightgray solid;
+    border-radius: 20px;
+}
+
 /* media query */
 @media only screen and (max-width: 760px) {
 
