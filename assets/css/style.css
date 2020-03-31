@@ -165,6 +165,20 @@ input{
     border-radius: 20px;
 }
 
+/* blog */
+.category{
+    text-align: center;
+}
+
+small{
+    text-transform: uppercase;
+}
+
+.topic{
+    margin-top: 20px;
+    background-image: linear-gradient(to right, white, gray);
+}
+
 /* media query */
 @media only screen and (max-width: 760px) {
 
