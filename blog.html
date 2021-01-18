@@ -4,18 +4,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog-Michael Solomon</title>
-    <link rel="icon" href="assets/image/title icon.png">
+    <title>Michael Solomon</title>
+    <!-- Favicon -->
+    <link rel="icon" href="https://assets.squarespace.com/universal/default-favicon.ico">
     <script src="https://kit.fontawesome.com/a7fd2d9625.js" crossorigin="anonymous"></script>
-    <!-- The html file is linked to bootstrap -->
-    <link rel="stylesheet" href="./assets/bootstrap css/css/bootstrap.min.css">
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/css/footer.css">
 </head>
 
 <body>
     <header class="location">
-        <nav class="navbar navbar-expand-md navbar-trans justify-content-md-start navbar-light">
+        <nav class="navbar navbar-expand-md navbar-trans navbar-light justify-content-md-start">
             <div class="d-flex flex-column brand-box mini index">
                 <a href="index.html" class="navbar-brand">
                     <p class="brand-text">MICHAEL SOLOMON</p>
@@ -29,17 +30,17 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <ul class="navbar-nav collapse navbar-collapse align-self-stretch position index1" id="navbar_menu">
+            <ul class="navbar-nav collapse navbar-collapse align-self-stretch position index1 justify-content-end" id="navbar_menu">
                 <li class="nav-item active"><a href="blog.html" class="nav-link">BLOG</a></li>
                 <li class="nav-item active"><a href="gallery.html" class="nav-link">GALLERY</a></li>
                 <li class="nav-item active"><a href="whyMe.html" class="nav-link">WHY~ME</a></li>
                 <li class="nav-item active"><a href="contact.html" class="nav-link">CONTACT</a></li>
             </ul>
-            <ul class="navbar-nav collapse navbar-collapse links">
+            <ul class="navbar-nav collapse navbar-collapse links justify-content-end">
                 <li class="nav-item"><a href="https://www.instagram.com/ruphael1146/" class="nav-link active"><i
                             class="fab fa-instagram"></i></a>
                 </li>
-                <li class="nav-item"><a href="https://web.telegram.org/" class="nav-link active"><i
+                <li class="nav-item"><a href="https://www.t.me/Ruphael" class="nav-link active"><i
                             class="fab fa-telegram-plane"></i></a></li>
                 <li class="nav-item"><a href="https://www.twitter.com/Ruphael" class="nav-link active"><i
                             class="fab fa-twitter"></i></a></li>
@@ -47,18 +48,23 @@
                             class="fab fa-facebook-f"></i></a>
                 </li>
             </ul>
+
+
+
         </nav>
-
-
     </header>
+    
 
-    <div class="container">
-        <h2 class="category">Latest blogs</h2>
+    <div class="bcontent container-fluid">
         <div class="card-deck">
-            <div class="card">
-                <img class="card-img-top" src="./assets/image/blog1.jpg" alt="Card image cap">
+            <a href="./blog_detail.html">
+            
+            </a>
+            <div class="card card-blog p-2">
+                <img class="card-img-top" src="./assets/image/blog1.jpg" alt="Card image cap"  width="446" height="251">
                 <div class="card-body">
-                    <h5 class="card-title">Entertainment</h5>
+                    <p class="pt-5 blog-date">12 February 2020</p>
+                    <h5 class="card-title">3 Lighting Set-ups for 1 Shot - Cinematography Basics</h5>
                     <p class="card-text">Movies are considered to be mirror of the society,
                         Many times, movies are pictured on real life heroes , helping millions to inspire. The basic
                         foundation of a movie is always entertainment, but with time the meaning evolved.
@@ -66,36 +72,57 @@
                         In this blog, there are a name of few movies which inspire you to focus on your goal in
                         your programming journey through its powerful lesson.
                     </p>
-                    <a href="#blog1" class="btn btn-primary">Go to this article</a>
-                    <p class="card-text"><small class="text-muted">Last updated 37 minutes ago</small></p>
+                    <a href="blog_detail.html">Read More   <i class="fas fa-arrow-right"></i></a>
+                    
                 </div>
             </div>
-            <div class="card">
-                <img class="card-img-top" src="./assets/image/blog2.jpg" alt="Card image cap">
+            <div class="card card-blog p-2">
+                <img class="card-img-top" src="./assets/image/blog1.jpg" alt="Card image cap"  width="446" height="251">
                 <div class="card-body">
-                    <h5 class="card-title">Web Development</h5>
-                    <p class="card-text">Web programming, also known as web development, is the creation of dynamic web
-                        applications. Examples of web applications are social networking sites like Facebook or
-                        e-commerce sites like Amazon.
+                    <p class="pt-5 blog-date">12 February 2020</p>
+                    <h5 class="card-title">3 Lighting Set-ups for 1 Shot - Cinematography Basics</h5>
+                    <p class="card-text">Movies are considered to be mirror of the society,
+                        Many times, movies are pictured on real life heroes , helping millions to inspire. The basic
+                        foundation of a movie is always entertainment, but with time the meaning evolved.
 
-                        The good news is that learning web development is not that hard!
+                        In this blog, there are a name of few movies which inspire you to focus on your goal in
+                        your programming journey through its powerful lesson.
                     </p>
-                    <a href="#blog2" class="btn btn-primary">Go to the article</a>
-                    <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                    <a href="blog_detail.html">Read More   <i class="fas fa-arrow-right"></i></a>
+                    
                 </div>
             </div>
-            <div class="card">
-                <img class="card-img-top" src="./assets/image/blog4.jfif" alt="Card image cap">
+            <div class="card card-blog p-2">
+                <img class="card-img-top" src="./assets/image/blog1.jpg" alt="Card image cap"  width="446" height="251">
                 <div class="card-body">
-                    <h5 class="card-title">DON’T TRUST EVERYTHING YOU SEE</h5>
-                    <p class="card-text">Wayne Dyer once said when we changed the way we
-                        look at things; the things we look at change. So often we’re just seeing half the picture, half
-                        the story, half the words. And with that half perspective, we live a half-hearted life.</p>
-                    <a href="#blog4" class="btn btn-primary">Go to the article</a>
-                    <p class="card-text"><small class="text-muted">Last updated a day ago</small></p>
+                    <p class="pt-5 blog-date">12 February 2020</p>
+                    <h5 class="card-title">3 Lighting Set-ups for 1 Shot - Cinematography Basics</h5>
+                    <p class="card-text">Movies are considered to be mirror of the society,
+                        Many times, movies are pictured on real life heroes , helping millions to inspire. The basic
+                        foundation of a movie is always entertainment, but with time the meaning evolved.
+
+                        In this blog, there are a name of few movies which inspire you to focus on your goal in
+                        your programming journey through its powerful lesson.
+                    </p>
+                    <a href="blog_detail.html">Read More   <i class="fas fa-arrow-right"></i></a>
+                    
                 </div>
+            </div>
+        </div>        
+     
+        <div class="row pt-5">
+            <div class="col-lg-12 text-center">
+                Older  <i class="fas fa-chevron-right"></i>
             </div>
         </div>
+
+
+
+
+
+
+
+
         <h2 class="category">Most viewed blog</h2>
         <div class="card mb-3">
             <img class="card-img-top" src="./assets/image/blog5.jpg" width="600" height="300" alt="Card image cap">
@@ -304,3 +331,4 @@
 </body>
 
 </html>
+
