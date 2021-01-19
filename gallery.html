@@ -12,139 +12,141 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @font-face {
+            font-family: 'bebas-neue';
+            src: url("../font/BebasNeue-Regular.ttf");
+            font-style: normal;
+            font-weight: 100;
+        }
+
+    </style>
 </head>
 
 <body>
 
     <header class="location">
-        <nav class="navbar navbar-expand-md navbar-trans navbar-light justify-content-md-start">
-            <div class="d-flex flex-column brand-box mini index">
-                <a href="index.html" class="navbar-brand">
-                    <p class="brand-text">MICHAEL SOLOMON</p>
-                </a>
-                <p class="tagline navbar-text tag-text collapse navbar-collapse">FULL STACK DEVELOPER |<br> ANDROID
-                    PROGRAMMER | GAME
-                    DEVELOPER</p>
-            </div>
-            <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbar_menu"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav style="font-family: bebas-neue;" class="navbar navbar-expand-lg sticky-top">
+            <div class="header">
+                <a class="nav-name mb-0" href="index.html">MICHAEL SOLOMON</a>
+                <h5 class="nav-job mt-0" href="index.html">SOFTWARE ENGINEER</h3>
+            </div>        
+    
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    
+                <span class="navbar-toggler-icon">
+                    <i class="fas fa-bars" style="color:black; font-size:28px;"></i>
+                </span>
+    
             </button>
-
-            <ul class="navbar-nav collapse navbar-collapse align-self-stretch position index1 justify-content-end" id="navbar_menu">
-                <li class="nav-item active"><a href="blog.html" class="nav-link">BLOG</a></li>
-                <li class="nav-item active"><a href="gallery.html" class="nav-link">GALLERY</a></li>
-                <li class="nav-item active"><a href="whyMe.html" class="nav-link">WHY~ME</a></li>
-                <li class="nav-item active"><a href="contact.html" class="nav-link">CONTACT</a></li>
-            </ul>
-            <ul class="navbar-nav collapse navbar-collapse links justify-content-end">
-                <li class="nav-item"><a href="https://www.instagram.com/ruphael1146/" class="nav-link active"><i
-                            class="fab fa-instagram"></i></a>
-                </li>
-                <li class="nav-item"><a href="https://www.t.me/Ruphael" class="nav-link active"><i
-                            class="fab fa-telegram-plane"></i></a></li>
-                <li class="nav-item"><a href="https://www.twitter.com/Ruphael" class="nav-link active"><i
-                            class="fab fa-twitter"></i></a></li>
-                <li class="nav-item"><a href="https://www.facebook.com/MichaelSolomon" class="nav-link active"><i
-                            class="fab fa-facebook-f"></i></a>
-                </li>
-            </ul>
-
-
-
+    
+            <div class="collapse navbar-collapse" id="colNav">
+                
+                <!-- To the left side side  -->
+                <ul class="navbar-nav ml-auto nav-links">
+                    <ul class="navbar-nav ml-auto mr-4">
+                        <li class="nav-item active h3 p-1"><a href="whyMe.html" class="nav-link">WHY&nbsp;ME</a></li>
+                        <li class="nav-item active h3 p-1"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                        <li class="nav-item active h3 p-1"><a href="blog.html" class="nav-link">BLOG</a></li>                
+                        <li class="nav-item active h3 p-1"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                    </ul> 
+                    
+                    <ul class="navbar-nav collapse navbar-collapse social-links">                    
+                        <li class="nav-item"><a href="https://www.instagram.com/ruphael1146/" class="nav-link active"><i class="fab fa-instagram"></i></i></a>
+                        </li>                    
+                        <li class="nav-item"><a href="https://twitter.com/Michael55211394" class="nav-link active"><i class="fab fa-twitter"></i></a></li>
+                        <li class="nav-item"><a href="https://www.facebook.com/people/Michael-Solomon/100007650707074" class="nav-link active"><i class="fab fa-facebook-f"></i></i></a>
+                        </li>
+                    </ul>
+                </ul>
+            </div>
         </nav>
     </header>
         <!-- This is the content -->
-        <div class="content container">
-
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery1.jpg" alt="michael solomon" width=400 height=300>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery2.jpg" alt="michael solomon" width=400 height=300>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/me.jpeg" alt="michael solomon" width=400 height=300>
-                </div>
+        <div class="content container-fluid">
+            <div class="row pb-2 px-2">
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery1.jpg" alt="michael solomon" width=400 height=400>
+                </span>
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery2.jpg" alt="michael solomon" width=400 height=400>
+                </span>
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/me.jpeg" alt="michael solomon" width=400 height=400>
+                </span>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery8.jpeg" alt="michael solomon" width=400 height=300>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery9.jpg" alt="michael solomon" width=400 height=300>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery4.jpg" alt="michael solomon" width=400 height=300>
-                </div>
+            <div class="row pb-2 px-2">
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery3.jpg" alt="michael solomon" width=400 height=400>
+                </span>
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery4.jpg" alt="michael solomon" width=400 height=400>
+                </span>
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery5.jpg" alt="michael solomon" width=400 height=400>
+                </span>
             </div>
 
-            <div class="row justify-content-center">
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery5.jpg" alt="michael solomon" width=400 height=300>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery6.jpg" alt="michael solomon" width=400 height=300>
-                </div>
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery7.jpg" alt="michael solomon" width=400 height=300>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <img src="assets/image/gallery3.jpg" alt="michael solomon" width=400 height=300>
-                </div>
+            <div class="row pb-2 px-2">
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery6.jpg" alt="michael solomon" width=400 height=400>
+                </span>
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery7.jpg" alt="michael solomon" width=400 height=400>
+                </span>
+                <span class="col-md-4 col-sm-12 remove-padding">
+                    <img src="assets/image/gallery8.jpg" alt="michael solomon" width=400 height=400>
+                </span>
             </div>
         </div>
 
-        <!-- This is the footer -->
-        <footer class="footer-area section_gap">
-            <div class="container">
-                <div class="row justify-content-around myfooter">
-                    <div class="col-lg-2 col-md-6 single-footer-widget">
-                        <h4>virtual tour</h4>
-                        <ul>
-                            <li><a href="blog.html">Blog</a></li>
-                            <li><a href="gallery.html">Gallery</a></li>
-                            <li><a href="whyMe.html">why me</a></li>
-                            <li><a href="contact.html">contact</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-2 col-md-6 single-footer-widget">
-                        <h4>My address</h4>
-                        <ul>
-                            <li><a href="https://www.instagram.com/ruphael1146/" target="_blank"><i
-                                        class="fab fa-instagram"></i>Instagram</a></li>
-                            <li><a href="https://www.t.me/Ruphael" target="_blank"><i
-                                        class="fab fa-telegram-plane"></i>Telegram</a></li>
-                            <li><a href="https://www.twitter.com/Ruphael" target="_blank"><i
-                                        class="fab fa-twitter"></i>Twitter</a></li>
-                            <li><a href="https://www.facebook.com/MichaelSolomon" target="_blank"><i
-                                        class="fab fa-facebook-f">Facebook</i></a></li>
-                        </ul>
-                    </div>
-                    <div class="col-lg-4 col-md-6 single-footer-widget">
-                        <h4>comment</h4>
-                        <p>For a quick comment</p>
-                        <div class="form-wrap" id="mc_embed_signup">
-                            <form action="mailto:se.michael.solomon@gmail.com" method="get" target="_blank"
-                                class="form-inline">
-                                <textarea name="comment" id="" cols="70" rows="3"></textarea>
-
-                                <button class="click-btn btn btn-default">Send comment</button>
-                            </form>
-                        </div>
-                    </div>
+         <!-- This is the footer -->
+    <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row justify-content-around myfooter">
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>virtual tour</h4>
+                    <ul>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                        <li><a href="whyMe.html">why me</a></li>
+                        <li><a href="contact.html">contact</a></li>
+                    </ul>
                 </div>
-                <div class="footer-bottom row justify-content-center">
-                    <p class="footer-text m-0 col-lg-8 col-md-12">
-                        Developed by Michael Solomon &copy;2020
-                    </p>
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>My address</h4>
+                    <ul>
+                        <li><a href="https://www.instagram.com/ruphael1146/" target="_blank"><i
+                                    class="fab fa-instagram"></i> Instagram</a></li>
+                        <li><a href="https://www.t.me/Ruphael" target="_blank"><i
+                                    class="fab fa-telegram-plane"></i> Telegram</a></li>
+                        <li><a href="https://twitter.com/Michael55211394" target="_blank"><i
+                                    class="fab fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.facebook.com/people/Michael-Solomon/100007650707074" target="_blank"><i
+                                    class="fab fa-facebook-f"> Facebook</i></a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>comment</h4>
+                    <p>For a quick comment</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form action="mailto:se.michael.solomon@gmail.com" method="get" target="_blank"
+                            class="form-inline">
+                            <textarea name="comment" id="" cols="70" rows="3"></textarea>
+                            <button class="click-btn btn btn-default">Send comment</button>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </footer>
+            <div class="footer-bottom row">
+                <p class="footer-text col-lg-12">
+                    Developed by Michael Solomon &copy;2020
+                </p>
+            </div>
+        </div>
+    </footer>
 
 
         <!-- Optional JavaScript -->

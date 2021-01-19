@@ -2,6 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
+html, body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
 /* Google font */
 
 /* Importing Font from local file */
@@ -148,11 +155,11 @@ ul {
     line-height: 1.5em;
     text-transform: none;
     color: #222;
+    padding-bottom: 10px;
 }
 
 .card-body a{
     font-family: 'Poppins', sans-serif;
-    font-weight: 600;
     font-style: normal;
     font-size: 14px;
     letter-spacing: .01em;
@@ -256,6 +263,12 @@ textarea:hover, input:hover, textarea:active, input:active, textarea:focus, inpu
 /* blog */
 .bcontent{
     margin-top: 60px;
+    padding: 0;
+}
+
+.card-deck a:hover{
+    text-decoration: none;
+    background-color: transparent;
 }
 
 form{
@@ -474,3 +487,136 @@ small{
         margin-top: 30px;
     }
 }
+
+* {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+  *:before,
+  *:after {
+    -webkit-box-sizing: content-box;
+       -moz-box-sizing: content-box;
+            box-sizing: content-box;
+  }
+
+  .remove-padding{
+      padding: 0;
+  }
+
+  .row{
+      overflow: hidden;
+  }
+
+  .positioning{
+    position: relative;
+    left: 240px;
+  }
+
+
+
+  .home-page{
+    background-image: url("https://images.pexels.com/photos/408518/pexels-photo-408518.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;    
+}
+
+nav{
+    font-family: Bebas Neue;
+    font-size: 1.4rem;
+    color: black;
+}
+
+
+.hamburger{
+    font-size: 2rem;
+}
+
+.nav-name{
+    color: #222;
+    font-size: 3.8rem;
+}
+
+.nav-job{
+    color: #222;    
+}
+
+.nav-item a{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+    color: #222;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;    
+}
+
+.header a:hover{
+    color: black;
+    text-decoration: none;
+}
+
+.index-header a:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-job{
+    letter-spacing: 2px;
+}
+
+.index-link{
+    color: white;
+}
+
+.index-link a{
+    color: white;
+}
+
+.gallery img{
+    filter: brightness(70%);
+}
+
+
+.fullscreen-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
+}
+
+/* decrease the font size of header when collapsing */
+@media only screen and (max-width: 850px) {    
+    nav{
+        background: white;
+    }
+    .nav-name{
+        color: #222;
+        font-size: 1.5rem;
+    }
+
+    .index-link{
+        color: black;
+    }
+    
+    .index-link a{
+        color: black;
+    }    
+    .nav-job{
+        visibility: hidden;    
+    } 
+
+    .contact-intro{
+        margin-top: 5rem;
+    }
+
+    .social-links{
+        visibility: hidden;
+        height: 0;
+    }
+
+  }

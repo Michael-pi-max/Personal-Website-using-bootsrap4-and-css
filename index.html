@@ -12,50 +12,58 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
+    <style>
+        @font-face {
+            font-family: 'bebas-neue';
+            src: url("../font/BebasNeue-Regular.ttf");
+            font-style: normal;
+            font-weight: 100;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-md navbar-trans fixed-top">
-        <div class="brand-box">
-            <a href="./index.html" class="navbar-brand">
-                <p class="brand-text">MICHAEL SOLOMON</p>
-            </a>
-            <p class="tagline navbar-text tag-text collapse navbar-collapse">FULL STACK DEVELOPER |<br> ANDROID
-                PROGRAMMER | GAME
-                DEVELOPER</p>
-        </div>
-        <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbar_menu"
-            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+    <nav style="font-family: bebas-neue;" class="navbar navbar-expand-lg sticky-top">
+        <div class="index-header header">
+            <a class="nav-name index-link mb-0" href="index.html">MICHAEL SOLOMON</a>
+            <h5 class="nav-job mt-0 index-link" href="index.html">SOFTWARE ENGINEER</h3>
+        </div>        
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#colNav"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon">
+                <i class="fas fa-bars" style="color:black; font-size:28px;"></i>
+            </span>
+
         </button>
 
-        <ul class="collapse navbar-collapse position index1 justify-content-end" id="navbar_menu">
-            <li class="nav-item active"><a href="blog.html" class="nav-link">BLOG</a></li>
-            <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
-            <li class="nav-item"><a href="whyMe.html" class="nav-link">WHY~ME</a></li>
-            <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
-        </ul>
-        <ul class="collapse navbar-collapse justify-content-end index2">
-            <li class="nav-item"><a href="https://www.instagram.com/ruphael1146/" class="nav-link active"><i
-                        class="fab fa-instagram"></i></a>
-            </li>
-            <li class="nav-item"><a href="https://www.t.me/Ruphael" class="nav-link active"><i
-                        class="fab fa-telegram-plane"></i></a></li>
-            <li class="nav-item"><a href="https://www.twitter.com/Ruphael" class="nav-link active"><i
-                        class="fab fa-twitter"></i></a></li>
-            <li class="nav-item"><a href="https://www.facebook.com/MichaelSolomon" class="nav-link active"><i
-                        class="fab fa-facebook-f"></i></a>
-            </li>
-        </ul>
-
-
+        <div class="collapse navbar-collapse" id="colNav">
+            
+            <!-- To the left side side  -->
+            <ul class="navbar-nav ml-auto nav-links">
+                <ul class="navbar-nav ml-auto mr-4">
+                    <li class="nav-item index-link active h3 p-1"><a href="whyMe.html" class="nav-link">WHY&nbsp;ME</a></li>
+                    <li class="nav-item index-link active h3 p-1"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                    <li class="nav-item index-link active h3 p-1"><a href="blog.html" class="nav-link">BLOG</a></li>                
+                    <li class="nav-item index-link active h3 p-1"><a href="contact.html" class="nav-link">CONTACT</a></li>
+                </ul> 
+                
+                <ul class="navbar-nav collapse navbar-collapse social-links">                    
+                    <li class="nav-item index-link"><a href="https://www.instagram.com/ruphael1146/" class="nav-link active"><i class="fab fa-instagram"></i></i></a>
+                    </li>                    
+                    <li class="nav-item index-link"><a href="https://twitter.com/Michael55211394" class="nav-link active"><i class="fab fa-twitter"></i></a></li>
+                    <li class="nav-item index-link"><a href="https://www.facebook.com/people/Michael-Solomon/100007650707074" class="nav-link active"><i class="fab fa-facebook-f"></i></i></a>
+                    </li>
+                </ul>
+            </ul>
+        </div>
     </nav>
     <div class="fullscreen-bg">
-        <video loop muted autoplay poster="img/videoframe.jpg" class="fullscreen-bg__video">
+        <video loop muted autoplay poster="./assets/image/placeholder.jpg" class="fullscreen-bg__video">
             <source src="./assets/gif(short video)/Atoms.mp4" type="video/mp4">
         </video>
     </div>
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -73,10 +81,4 @@
 
 </html>
 
-<!-- Navigation Bar -->
-<!-- external link -->
-<!-- body font hieracial -->
-<!-- block element to inline - div to span -->
-<!-- padding left of newest itme comment -->
-<!-- Gallery space  --> 
-<!-- Wrap with anchor tags --> -blog details
+<!-- Ditch kidus -->
